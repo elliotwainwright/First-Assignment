@@ -1,0 +1,204 @@
+body
+{
+font-family:"arial", sans-serif;
+font-size:100%;
+background-color:#ccf0fc;
+}
+
+h1
+{
+font-family:"arial", sans-serif;
+font-size:2.5em;
+color:#ffffff;
+margin:0px;
+padding:1em;
+border:2px solid #d1dc66;
+background-color:#163880;
+}
+
+h2
+{
+font-family:"arial", sans-serif;
+font-size:2em;
+margin:0px;
+padding:1em;
+color:#163880;
+}
+
+div.navmenu
+{
+float:right;
+margin:0px;
+overflow:hidden;
+padding-bottom:1em;
+}
+
+div.navmenu ul
+{
+list-style-type:none;
+margin:0px;
+padding:0px;
+}
+
+div.navmenu li
+{
+float:left
+}
+
+div.navmenu a:link,div.navmenu a:visited
+{
+display:block;
+width:200px;
+height:1.2em;
+font-size:1em;
+font-weight:bold;
+color:#ffffff;
+background-color:#0588bc;
+text-align:center;
+padding:10px;
+text-decoration:none;
+text-transform:uppercase;
+}
+
+div.navmenu a:hover,div.navmenu a:active
+{
+color:#13387e;
+background-color:#9cdff9;
+}
+
+#pageinstructions
+{
+clear:both;
+width:80%;
+margin:auto;
+padding:1.25em;
+font-family:"arial", sans-serif;
+color:#0588BC;
+font-size:2em;
+text-align:center;
+}
+
+div.maincontainer
+{
+text-align:center;
+}
+
+div.requestform
+{
+width:10em;
+margin:auto;
+padding:5px;
+}
+input#submitbutton
+{
+width:10em;
+margin:0.5em;
+padding:5px;
+}
+
+label
+{
+font-weight:bold;
+font-size:1em;
+font-family:"arial", sans-serif;
+color:#0588BC;
+}
+
+a.signinlink
+{
+text-align:center;
+display:block;
+padding:0.5em;
+height:2em;
+font-size:1.5em;
+font-family:"arial", sans-serif;
+color:#0588BC;
+text-decoration:none;
+}
+
+a.signinlink:hover
+{
+font-weight:bold;
+}
+
+input#username,#password,#staffid,#username,#datefrom,#dateto,#numofdays,#approvedby,#approveddate
+{
+color:#13387e;
+border:3px inset #d1dc66;
+background-color:#9cdff9;
+width:10em;
+padding:5px;
+font-family:"arial", sans-serif;
+}
+
+#allrequeststable
+{
+font-family:"arial", sans-serif;
+clear:both;
+width:60%;
+margin:auto;
+border-collapse:collapse;
+}
+
+#allrequeststable td, #allrequeststable th 
+{
+font-size:1em;
+border:2px solid #d1dc66;
+padding:3px 7px 2px 7px;
+color:#13387e;
+}
+
+#allrequeststable th 
+{
+font-size:1.1em;
+text-align:left;
+padding-left:15px;
+background-color:#01baf2;
+color:#ffffff;
+}
+
+#allrequeststable tr.alt td 
+{
+background-color:#9cdff9;
+}
+
+a.buttonlink
+{
+text-decoration:none;
+}
+
+a.pagelink:link
+{
+font-size:1.1em;
+text-align:center;
+text-decoration:none;
+color:#163880;
+}
+a.pagelink:hover
+{
+color:#01baf2;
+text-decoration:underline;
+}
+
+hr#bottomline
+{
+clear:both;
+margin-top:1em;
+}
+
+div.w3cicons
+{
+clear:both;
+width:88px;
+margin:auto;
+padding:0.5em;
+}
+
+div.ljmulogo
+{
+clear:both;
+width:150px;
+margin:auto;
+padding:0.5em;
+}
+
